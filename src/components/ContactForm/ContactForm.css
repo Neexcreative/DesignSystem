@@ -1,0 +1,29 @@
+.neex-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 32px;
+  border-radius: var(--radius-lg);
+  background: rgba(255, 255, 255, 0.5);
+  border: 1px solid rgba(20, 20, 20, 0.08);
+  box-shadow: var(--shadow-sm);
+}
+
+.neex-form-title {
+  margin: 0;
+  font-size: 36px;
+  line-height: 1.1;
+  color: var(--color-text-primary);
+}
+
+.neex-form-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 16px;
+}
+
+@media (max-width: 768px) {
+  .neex-form-grid {
+    grid-template-columns: 1fr;
+  }
+}
