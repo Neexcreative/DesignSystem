@@ -12,17 +12,20 @@ function LandingPage() {
     >
       <Container>
         <Section>
-          <Hero 
-          eyebrow="NEEX DESIGN SYSTEM"
-      title="Sistema visual premium para a marca"
-      description="Uma base reutilizável para websites, apresentações e social media."
-      primaryAction="Começar projeto"
-      secondaryAction="Ver componentes"
-/>
+          <Hero
+            eyebrow="NEEX DESIGN SYSTEM"
+            title="Sistema visual premium para a marca"
+            description="Uma base reutilizável para websites, apresentações e social media."
+            primaryAction="Começar projeto"
+            secondaryAction="Ver componentes"
+          />
         </Section>
 
         <Section>
-          <ContactForm />
+          <ContactForm
+            title="Fale com a gente"
+            buttonText="Enviar mensagem"
+          />
         </Section>
       </Container>
     </div>

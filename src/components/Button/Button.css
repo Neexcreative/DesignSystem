@@ -50,3 +50,6 @@
 .neex-button--ghost:hover {
   background: rgba(68, 0, 0, 0.05);
 }
+.neex-button--full {
+  width: 100%;
+}

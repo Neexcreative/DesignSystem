@@ -10,4 +10,10 @@ export default meta
 
 type Story = StoryObj<typeof ContactForm>
 
-export const Default: Story = {}
+export const Default: Story = {
+  args: {
+    title: 'Fale com a gente',
+    buttonText: 'Enviar mensagem',
+    serviceOptions: ['Branding', 'Website', 'Social Media', 'Video Editing'],
+  },
+}
