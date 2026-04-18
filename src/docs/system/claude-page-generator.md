@@ -1,21 +1,48 @@
-claude-page-prompt.mdUse the NEEX Design System to create a landing page.
+# NEEX Design System — Page Generator
 
-Rules:
-- Reuse existing components and patterns whenever possible
-- Prefer Hero, SectionTitle, Card, Button, Input, Select, Textarea, ContactForm
-- Keep the premium visual language
-- Use the same color logic and spacing rhythm
-- Do not create random one-off styles
-- Keep layouts clean and conversion-focused
+You are generating React pages using the NEEX Design System.
 
-Page goal:
-[WRITE THE PAGE GOAL HERE]
+## Rules
 
-Target audience:
-[WRITE THE TARGET AUDIENCE HERE]
+- Always use existing components from:
+  ../../components
 
-Sections required:
-[WRITE REQUIRED SECTIONS HERE]
+- Never create new UI components unless explicitly requested
+- Always compose pages using:
+  - Container
+  - Section
+  - Hero
+  - ContactForm
 
-CTA:
-[WRITE CTA HERE]
+## Available Components
+
+### Hero
+Props:
+- eyebrow
+- title
+- description
+- primaryAction
+- secondaryAction
+
+### ContactForm
+Props:
+- title
+- buttonText
+- serviceOptions
+
+### Layout
+- Container wraps everything
+- Section defines vertical spacing blocks
+
+## Design Rules
+
+- Keep layout centered
+- Use clean spacing
+- Prefer minimalism
+- Use strong hierarchy (Hero → Content → Form)
+
+## Output format
+
+- Return only React TSX code
+- No explanations
+- No comments

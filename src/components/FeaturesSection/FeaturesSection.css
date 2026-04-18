@@ -1,0 +1,17 @@
+.neex-features-section {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+
+.neex-features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 20px;
+}
+
+@media (max-width: 900px) {
+  .neex-features-grid {
+    grid-template-columns: 1fr;
+  }
+}
